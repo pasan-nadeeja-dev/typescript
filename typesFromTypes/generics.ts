@@ -1,8 +1,8 @@
 // Expressing types in terms of other types
 
-// ------------------- // 
-// --- 01 Generics --- //
-// ------------------- //
+// ------------------------ // 
+// --- 01 Generic Types --- //
+// ------------------------ //
 
 function customerIdentity<Type>(arg: Type): Type {
     return arg;
